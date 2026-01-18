@@ -603,8 +603,51 @@ footer {
     gap: 10px;
   }
 
-  a {
+  .logo {
+    margin: 0 auto 12px;
+    transform: scale(0.55);
+    text-align: center;
+  }
+
+  .logo img {
+    max-width: 180px;
+    height: auto;
+  }
+
+  /* HEADER */
+  .site-header {
+    height: auto;
+    padding: 18px 30px;
+  }
+
+  .header-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .header-left {
+    justify-self: start;
+  }
+
+  .header-right {
+    justify-self: end;
+    gap: 18px;
+  }
+
+  .navlinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 28px;
+    padding: 15px 30px;
+    text-align: center;
+  }
+
+  .navlinks a {
     font-size: 16px;
+  }
+
+}
+
 }
 
 @media (max-width: 768px) {
@@ -614,32 +657,55 @@ footer {
   }
 
   .logo {
+    margin: 0 auto 10px;
+    padding: 0;
     transform: scale(0.6);
-    margin: 0 auto;
-    display: block;
+    text-align: center;
+  }
+
+  .logo img {
+    display: inline-block;
+    max-width: 160px;
+    height: auto;
   }
 
   .site-header {
     height: auto;
-    padding: 20px;
+    padding: 15px 20px;
   }
 
   .header-inner {
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 12px;
     text-align: center;
   }
 
+  .header-left,
   .header-right {
-    justify-content: center;
+    justify-self: center;
+  }
+
+  .header-right {
+    gap: 25px;
   }
 
   .navlinks {
-    flex-direction: column;
-    gap: 15px;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 20px;
+    padding: 15px 20px;
+    text-align: center;
   }
 
+  .navlinks li {
+    list-style: none;
+  }
+
+  .navlinks a {
+    display: block;
+    padding: 6px 0;
+    font-size: 16px;
+  }
   .hero {
     grid-template-columns: 1fr;
     margin: 30px auto;
@@ -752,6 +818,7 @@ footer {
   }
 
 }
+
 
 
 
