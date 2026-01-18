@@ -374,7 +374,6 @@ footer {
   background-color: #000;
 }
 
-/* PRODUCT PAGE */
 .product-page {
   padding: 80px 40px;
   background-color: #FFFAFA;
@@ -585,7 +584,8 @@ footer {
   .vision-layout,
   .mission-layout,
   .style-layout,
-  .fabric-layout {
+  .fabric-layout,
+  .measurement-layout{
     grid-template-columns: 1fr;
   }
 
@@ -594,13 +594,17 @@ footer {
   .vision-layout img,
   .mission-layout img,
   .style-layout img,
-  .fabric-layout img {
+  .fabric-layout img,
+  .measurement-layout img{
     height: 300px;
   }
 
   .navlinks {
-    gap: 20px;
+    gap: 10px;
   }
+
+  a {
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -636,7 +640,6 @@ footer {
     padding: 0;
   }
 
-  /* HERO SECTION */
   .hero {
     grid-template-columns: 1fr;
     margin: 30px auto;
@@ -749,6 +752,7 @@ footer {
   }
 
 }
+
 
 
 
