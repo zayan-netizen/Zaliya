@@ -601,6 +601,7 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
   }
+  
   .contact-container,
   .product-container {
     grid-template-columns: 1fr;
@@ -628,7 +629,7 @@ footer {
 
   .logo,
   .site-header,
-  nav,
+   nav,
   .hero,
   .products,
   .product-container,
@@ -648,7 +649,8 @@ footer {
     width: 100%;
     margin: 0;
     transform: none;
-}
+  }
+}  
 
 @media (max-width: 768px) {
 
@@ -673,7 +675,7 @@ footer {
 
   .logo,
   .site-header,
-  nav,
+   nav,
   .hero,
   .products,
   .product-container,
@@ -694,8 +696,8 @@ footer {
     margin: 0;
     transform: none;
   }
-
 }
+
 
 
 
