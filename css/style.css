@@ -573,7 +573,8 @@ footer {
   .fabric-layout,
   .handwork-layout,
   .craft-layout,
-  .delivery-layout {
+  .delivery-layout,
+  .measurement-layout{
     grid-template-columns: 1fr;
   }
 
@@ -585,7 +586,8 @@ footer {
   .fabric-layout img,
   .handwork-layout img,
   .craft-layout img,
-  .delivery-layout img {
+  .delivery-layout img,
+  .measurement-layout img{
     height: 300px;
   }
 
@@ -599,7 +601,7 @@ footer {
   
   .product-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px;
   }
   
@@ -700,11 +702,12 @@ footer {
 
    .product-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px;
   }
   
 }
+
 
 
 
