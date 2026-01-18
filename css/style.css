@@ -590,15 +590,23 @@ footer {
   }
 
   .navlinks {
-    gap: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
   }
-
+  
+  .product-grid{
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
   .contact-container,
   .product-container {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 }
+
 
 
 
