@@ -599,7 +599,7 @@ footer {
   
   .product-grid{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
   
@@ -700,11 +700,12 @@ footer {
 
    .product-grid{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
   
 }
+
 
 
 
