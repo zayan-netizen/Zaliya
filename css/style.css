@@ -604,10 +604,151 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .contact-container,
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    transform: scale(0.6);
+    margin: 0 auto;
+    display: block;
+  }
+
+  .site-header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .header-inner {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .header-right {
+    justify-content: center;
+  }
+
+  .navlinks {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    grid-template-columns: 1fr;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+
+  .hero-text {
+    padding: 25px;
+  }
+
+  .hero-text p {
+    text-align: left;
+  }
+
+  .hero-btn {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .hero-image {
+    height: auto;
+  }
+
+  .about-layout,
+  .vision-layout,
+  .mission-layout,
+  .style-layout,
+  .fabric-layout,
+  .handwork-layout,
+  .craft-layout,
+  .delivery-layout,
+  .measurement-layout {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .about-layout img,
+  .vision-layout img,
+  .mission-layout img,
+  .style-layout img,
+  .fabric-layout img,
+  .handwork-layout img,
+  .craft-layout img,
+  .delivery-layout img,
+  .measurement-layout img {
+    height: auto;
+  }
+
+  .products {
+    padding: 0 20px 60px;
+  }
+
+  .product-image {
+    height: auto;
+  }
+
   .product-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding: 0 20px;
+  }
+
+  .main-image {
+    height: auto;
+  }
+
+  .main-image img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .thumbnail-images {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-section {
+    padding: 60px 20px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+
+  .product-image img:hover,
+  .main-image img:hover {
+    transform: none;
   }
 }
+
+@media (max-width: 480px) {
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .product-title {
+    font-size: 26px;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+
+  button,
+  .hero-btn {
+    width: 100%;
+  }
+
+}
+
+
 
