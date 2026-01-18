@@ -562,30 +562,18 @@ footer {
   cursor: pointer;
   }
 
-@media (max-width: 900px) {
-  .product-container {
-    grid-template-columns: 1fr;
-  }
-
-  .main-image {
-    height: 420px;
-  }
-
-  .product-actions {
-    flex-direction: column;
-  }
-}
-
-
 
 @media (max-width: 900px) {
+
   .hero,
   .about-layout,
   .vision-layout,
   .mission-layout,
   .style-layout,
   .fabric-layout,
-  .measurement-layout{
+  .handwork-layout,
+  .craft-layout,
+  .delivery-layout {
     grid-template-columns: 1fr;
   }
 
@@ -595,277 +583,29 @@ footer {
   .mission-layout img,
   .style-layout img,
   .fabric-layout img,
-  .measurement-layout img{
+  .handwork-layout img,
+  .craft-layout img,
+  .delivery-layout img {
     height: 300px;
   }
 
   .navlinks {
-    gap: 10px;
-  }
-
-  .logo {
-    margin: 0 auto 12px;
-    transform: scale(0.55);
-    text-align: center;
-  }
-
-  .logo img {
-    max-width: 180px;
-    height: auto;
-  }
-
-  .site-header {
-    height: auto;
-    padding: 18px 30px;
-  }
-
-  .header-inner {
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 
-  .header-left {
-    justify-self: start;
-  }
-
-  .header-right {
-    justify-self: end;
-    gap: 18px;
-  }
-
-  .navlinks {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px 28px;
-    padding: 15px 30px;
-    text-align: center;
-  }
-
-  .navlinks a {
-    font-size: 16px;
-  }
-
-   .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
-  .product-image {
-    height: 260px;
-  }
-
-  .product-card h3 {
-    font-size: 15px;
-  }
-
-  .product-card p {
-    font-size: 13px;
-  }
-
-   .products .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
-  .products .product-image {
-    height: 260px;
-  }
-
-}
-
-@media (max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .logo {
-    margin: 0 auto 10px;
-    padding: 0;
-    transform: scale(0.6);
-    text-align: center;
-  }
-
-  .logo img {
-    display: inline-block;
-    max-width: 160px;
-    height: auto;
-  }
-
-  .site-header {
-    height: auto;
-    padding: 15px 20px;
-  }
-
-  .header-inner {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    text-align: center;
-  }
-
-  .header-left,
-  .header-right {
-    justify-self: center;
-  }
-
-  .header-right {
-    gap: 25px;
-  }
-
-  .navlinks {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px 20px;
-    padding: 15px 20px;
-    text-align: center;
-  }
-
-  .navlinks li {
-    list-style: none;
-  }
-
-  .navlinks a {
-    display: block;
-    padding: 6px 0;
-    font-size: 16px;
-  }
-  .hero {
-    grid-template-columns: 1fr;
-    margin: 30px auto;
-    padding: 0 20px;
-  }
-
-  .hero-text {
-    padding: 25px;
-  }
-
-  .hero-text p {
-    text-align: left;
-  }
-
-  .hero-btn {
-    margin-left: 0;
-    display: block;
-    text-align: center;
-  }
-
-  .hero-image {
-    height: auto;
-  }
-
-  .about-layout,
-  .vision-layout,
-  .mission-layout,
-  .style-layout,
-  .fabric-layout,
-  .handwork-layout,
-  .craft-layout,
-  .delivery-layout,
-  .measurement-layout {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-  }
-
-  .about-layout img,
-  .vision-layout img,
-  .mission-layout img,
-  .style-layout img,
-  .fabric-layout img,
-  .handwork-layout img,
-  .craft-layout img,
-  .delivery-layout img,
-  .measurement-layout img {
-    height: auto;
-  }
-
-  .products {
-    padding: 0 20px 60px;
-  }
-
-  .product-image {
-    height: auto;
-  }
-
+  .contact-container,
   .product-container {
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 0 20px;
   }
-
-  .main-image {
-    height: auto;
-  }
-
-  .main-image img {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .thumbnail-images {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .contact-section {
-    padding: 60px 20px;
-  }
-
-  .contact-container {
-    grid-template-columns: 1fr;
-  }
-
-
-  .product-image img:hover,
-  .main-image img:hover {
-    transform: none;
-  }
-
-  .product-grid {
-    gap: 24px;
-  }
-
-  .product-image {
-    height: 220px;
-  }
-
-  .products .product-grid {
-    gap: 24px;
-  }
-
-  .products .product-image {
-    height: 220px;
-  }
-
 }
 
-@media (max-width: 480px) {
 
-  h2 {
-    font-size: 24px;
-  }
 
-  .product-title {
-    font-size: 26px;
-  }
 
-  .product-price {
-    font-size: 18px;
-  }
 
-  button,
-  .hero-btn {
-    width: 100%;
-  }
 
-  .products .product-grid {
-    gap: 18px;
-  }
 
-  .products .product-image {
-    height: 190px;
-  }
-
-}
 
 
 
